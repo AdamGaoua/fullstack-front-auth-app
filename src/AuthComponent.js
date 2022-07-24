@@ -40,13 +40,13 @@ export default function AuthComponent() {
 
   return (
     <div>
-      <h1 className="text-center">Auth Component</h1>
+      <h1 className="text-center">Composant à accès restreint</h1>
       <h3 className="text-center text-danger">{message}</h3>
       <Button type="submit" 
       variant="danger"
       onClick={()=> logout()}
       >
-        Logout
+        Se déconnecter
       </Button>
     </div>
   );

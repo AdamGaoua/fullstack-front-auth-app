@@ -44,7 +44,7 @@ export default function Login() {
         <Form onSubmit={(e)=>handleSubmit(e)}>
             
             <Form.Group controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label>Adresse email</Form.Label>
                 <Form.Control 
                 type="email" 
                 name="email"
@@ -56,7 +56,7 @@ export default function Login() {
 
             
             <Form.Group controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
+                <Form.Label>Mot de passe</Form.Label>
                 <Form.Control 
                 type="password" 
                 name="password"
@@ -71,12 +71,12 @@ export default function Login() {
             variant="primary" 
             type="submit"
             onClick={(e)=>handleSubmit(e)}>
-                Submit
+                Valider
             </Button>
         </Form>
 
         {login && 
-        <p> You are logged in successfully</p>}
+        <p> Vous êtes connecté</p>}
         </>
     )
 }

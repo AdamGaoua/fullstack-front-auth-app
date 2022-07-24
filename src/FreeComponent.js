@@ -21,7 +21,7 @@ export default function FreeComponent() {
   }, [])
   return (
     <div>
-      <h1 className="text-center">Free Component</h1>
+      <h1 className="text-center">Composant libre d'accès</h1>
       <h3 className="text-center text-danger">{message}</h3>
     </div>
   );

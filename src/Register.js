@@ -34,11 +34,11 @@ export default function Register() {
 
     return (
         <>
-        <h2>Register</h2>
+        <h2>S'inscrire</h2>
             <Form onSubmit={(e)=>handleSubmit(e)}>
             
                 <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>Adresse email</Form.Label>
                     <Form.Control 
                     type="email" 
                     name="email"
@@ -50,7 +50,7 @@ export default function Register() {
 
                 
                 <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label>Mot de passe</Form.Label>
                     <Form.Control 
                     type="password" 
                     name="password"
@@ -65,12 +65,12 @@ export default function Register() {
                 type="submit"
                 onClick={(e)=>handleSubmit(e)}
                 >
-                    Register
+                    S'inscrire
                 </Button>
             </Form>
 
             {register && (
-                <p> You are registered successfully</p>
+                <p> Vous êtes inscrit.</p>
             )}
         </>
     )
