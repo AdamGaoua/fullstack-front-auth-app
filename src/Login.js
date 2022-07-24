@@ -50,7 +50,7 @@ export default function Login() {
                 name="email"
                 value={email}  
                 onChange={(e)=> setEmail(e.target.value)}              
-                placeholder="Enter email"
+                placeholder="Email"
                 />
             </Form.Group>
 
@@ -62,7 +62,7 @@ export default function Login() {
                 name="password"
                 value={password}
                 onChange={(e)=> setPassword(e.target.value)}
-                placeholder="Password" 
+                placeholder="Mot de passe" 
                 />
             </Form.Group>
 
